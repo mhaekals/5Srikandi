@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/logo_toolbar"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Klinik"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_marginTop="10dp"
+            android:layout_width="500dp"
+            android:layout_height="276dp"
+            android:src="@drawable/klinik"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/logo_toolbar"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home Treatment"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_marginTop="10dp"
+            android:layout_width="500dp"
+            android:layout_height="276dp"
+            android:src="@drawable/home_treatment"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

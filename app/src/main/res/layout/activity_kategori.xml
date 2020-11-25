@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KategoriActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="PILIH KATEGORI"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:textSize="20dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/txtWajah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wajah"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/txtBadan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Badan"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/txtWB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wajah dan Badan"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

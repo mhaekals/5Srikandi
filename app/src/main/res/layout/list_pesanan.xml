@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/logo_toolbar"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="jdalkdsjkl"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtNamaUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="52dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtAlamatUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="52dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtKontakUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="52dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txtNamaLayanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="klsdjalksj"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="52dp"/>
+        <TextView
+            android:id="@+id/txtKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="klsdjalksj"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="52dp"/>
+        <TextView
+            android:id="@+id/txtHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="klsdjalksj"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="52dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/idKlinik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/idLayanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/NamaK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/AlamatK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/KontakK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</android.support.v7.widget.CardView>
